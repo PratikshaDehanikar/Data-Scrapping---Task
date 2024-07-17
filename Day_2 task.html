@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <style>
+        /* Element selectors */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        
+        /* Class selectors */
+        .highlight {
+            background-color: yellow;
+        }
+        .center {
+            text-align: center;
+        }
+        .border {
+            border: 1px solid #ac5d5d;
+        }
+        .padding {
+            padding: 10px;
+        }
+        .margin {
+            margin: 10px;
+        }
+        .rounded {
+            border-radius: 8px;
+        }
+
+        /* ID selectors */
+        #main-header {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        #footer {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #primary-content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #sidebar {
+            float: right;
+            width: 30%;
+        }
+        #main-content {
+            float: left;
+            width: 65%;
+        }
+
+        /* Different styles */
+        .italic {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .text-color {
+            color: lightseagreen;
+        }
+        .bg-color {
+            background-color: #e6e6e6;
+        }
+        .font-size-large {
+            font-size: 1.5em;
+        }
+        .font-size-small {
+            font-size: 0.75em;
+        }
+        .line-height {
+            line-height: 2;
+        }
+        .letter-spacing {
+            letter-spacing: 2px;
+        }
+        .word-spacing {
+            word-spacing: 5px;
+        }
+        .text-align-right {
+            text-align: right;
+        }
+        .text-align-left {
+            text-align: left;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-header">CSS Styling Examples</h1>
+    
+    <div id="primary-content" class="border padding rounded bg-color">
+        <div id="main-content">
+            <p class="highlight">This is a highlighted paragraph with a background color.</p>
+            <p class="italic">This text is italic.</p>
+            <p class="bold">This text is bold.</p>
+            <p class="underline">This text is underlined.</p>
+            <p class="uppercase">This text is uppercase.</p>
+            <p class="text-color">This text has a specific color.</p>
+            <p class="font-size-large">This text is large.</p>
+            <p class="font-size-small">This text is small.</p>
+            <p class="line-height">This paragraph has increased line height.</p>
+            <p class="letter-spacing">This text has increased letter spacing.</p>
+            <p class="word-spacing">This text has increased word spacing.</p>
+        </div>
+        
+        <div id="sidebar" class="border padding rounded margin">
+            <p class="center">This is the sidebar content.</p>
+        </div>
+    </div>
+    
+    <div id="footer" class="border padding margin">
+        <p class="text-align-right">Right aligned text.</p>
+        <p class="text-align-left">Left aligned text.</p>
+        <p class="hidden">This text is hidden.</p>
+    </div>
+</body>
+</html>
